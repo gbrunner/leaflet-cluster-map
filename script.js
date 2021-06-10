@@ -8,7 +8,7 @@ var Stamen_Terrain = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/terra
 	ext: 'png'
 }).addTo(map);
 
-  $.getJSON("https://raw.githubusercontent.com/gbrunner/adv-python-for-gis-and-rs/master/Week%201/rodents.geojson",function(data){
+  $.getJSON("https://raw.githubusercontent.com/gbrunner/adv-programming-for-gis-and-rs/master/Web%20Development%20Module/Unit%201%20-%20GitHub%20and%20Leaflet/rodents.geojson",function(data){
     var ratIcon = L.icon({
       iconUrl: 'http://andywoodruff.com/maptime-leaflet/rat.png',
       iconSize: [60,50]
